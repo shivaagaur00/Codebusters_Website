@@ -428,7 +428,6 @@ function Events() {
             </div>
           )}
 
-          {events.length > 0 && (
             <button
               onClick={update}
               className="mt-6 w-full py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg transition duration-200 flex items-center justify-center"
@@ -436,7 +435,6 @@ function Events() {
               <Save className="mr-2" />
               Update All Events
             </button>
-          )}
         </div>
       </div>
     </div>
